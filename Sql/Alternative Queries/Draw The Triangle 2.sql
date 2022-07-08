@@ -1,0 +1,1 @@
+select rpad('*', 2 * level - 1, ' *') from dual connect by level <= 20;
